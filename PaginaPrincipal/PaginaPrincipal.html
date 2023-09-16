@@ -4,13 +4,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Descripcion General</title>
+  <title>BuilDoc</title>
+  <link rel="shortcut icon" href="HeadLogo.png" type="image/x-icon">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <link rel="shortcut icon" href="Header/Header-HeadLogo.svg" type="image/x-icon">
-  <link rel="stylesheet" href="DescripcionGeneral.css">
-  <iframe src="C:\Users\DELL\Documents\Santi Waffles\SENA\Diseño Web\Header\Header.html"
-    width="100%" height="100%"></iframe>
+  <link rel="stylesheet" href="PaginaPrincipal\PaginaPrincipal.css">
+  <iframe src="C:\Users\DELL\Documents\Santi Waffles\SENA\Diseño Web\Header\Header.html" width="100%" height="100%"></iframe>
 </head>
 
 <body>
@@ -29,7 +28,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg">
-            <img class="Imagen" src="DescripcionGeneral.jpg" alt="Imagen" width="100%" height="100%">
+            <img class="Imagen" src="PaginaPrincipal.jpg" alt="Imagen" width="100%" height="100%">
           </div>
         </div>
       </div>
@@ -39,7 +38,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg">
-            <h2 class="display-4 fw-normal text-body-emphasis text-center">Descripcion General</h2>
+            <h2 id="DescripcionId" class="display-4 fw-normal text-body-emphasis text-center">Descripcion General</h2>
             <p id="Descripcion">BuilDoc es la solución que tu empresa necesita para simplificar la gestión de archivos,
               tareas, incidentes e inspecciones. Descubre cómo esta aplicación puede transformar la forma en que operas
               y
@@ -59,7 +58,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg">
-          <h1 class="display-4 fw-normal text-body-emphasis" id="Titulos">Funciones</h1>
+          <h2 id="FuncionesId" class="display-4 fw-normal text-body-emphasis text-center">Funciones</h2>
         </div>
       </div>
 
@@ -73,7 +72,7 @@
             <img class="align-items-center" src="GA.png" alt="" width="50%" height="50%">
           </div>
           <div class="col-lg-4 text-center">
-            <h2 id="Titulos">Gestion de Tareas</h2>
+            <h2 class="text-center">Gestion de Tareas</h2>
             <p>El módulo de tareas de BuilDoc permite administrar fases, crear, modificar, eliminar, asignar, aprobar,
               comentar y adjuntar archivos a tareas. Facilita la colaboración y mejora la eficiencia en el seguimiento
               del
@@ -81,7 +80,7 @@
             <img class="align-items-center" src="GT.png" alt="" width="50%" height="50%">
           </div>
           <div class="col-lg-4 text-center">
-            <h2 id="Titulos">Gestion de Calidad</h2>
+            <h2 class="text-center">Gestion de Calidad</h2>
             <p>La gestión de incidentes e inspecciones en BUILDOC es esencial en construcción. Registra incidentes,
               programa inspecciones y mejora la calidad y seguridad. Informes facilitan decisiones y la mejora continua
               en
@@ -98,10 +97,8 @@
     <div class="container">
       <header>
         <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
-          <h1 class="display-4 fw-normal text-body-emphasis">Precios</h1>
-          <p class="fs-5 text-body-secondary">Quickly build an effective pricing table for your potential customers with
-            this Bootstrap example. It’s built with default Bootstrap components and utilities with little
-            customization.
+          <h1 id="PreciosId" class="display-4 fw-normal text-body-emphasis">Precios</h1>
+          <p class="fs-5 text-body-secondary">Elije el plan que mejor se adapte a tus necesidades.
           </p>
         </div>
       </header>
@@ -112,54 +109,51 @@
             <div class="col-lg-4">
               <div class="card mb-4 rounded-3 shadow-sm">
                 <div class="card-header py-3">
-                  <h4 class="my-0 fw-normal">Free</h4>
+                  <h4 class="my-0 fw-normal">Plan Básico</h4>
                 </div>
                 <div class="card-body">
-                  <h1 class="card-title pricing-card-title">$0<small class="text-body-secondary fw-light">/mo</small>
+                  <h1 class="card-title pricing-card-title">COP 60.000<small class="text-body-secondary fw-light">/mes</small>
                   </h1>
                   <ul class="list-unstyled mt-3 mb-4">
-                    <li>10 users included</li>
-                    <li>2 GB of storage</li>
-                    <li>Email support</li>
-                    <li>Help center access</li>
+                    <li>5 GB de almacenamiento</li>
+                    <li>Soporte por correo electrónico</li>
+                    <li>Acceso a plantillas premium</li>
                   </ul>
-                  <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+                  <button type="button" class="w-100 btn btn-lg btn-outline-dark">Elegir</button>
                 </div>
               </div>
             </div>
             <div class="col-lg-4">
               <div class="card mb-4 rounded-3 shadow-sm">
                 <div class="card-header py-3">
-                  <h4 class="my-0 fw-normal">Pro</h4>
+                  <h4 class="my-0 fw-normal">Plan Estándar</h4>
                 </div>
                 <div class="card-body">
-                  <h1 class="card-title pricing-card-title">$15<small class="text-body-secondary fw-light">/mo</small>
+                  <h1 class="card-title pricing-card-title">COP 90.000<small class="text-body-secondary fw-light">/mes</small>
                   </h1>
                   <ul class="list-unstyled mt-3 mb-4">
-                    <li>20 users included</li>
-                    <li>10 GB of storage</li>
-                    <li>Priority email support</li>
-                    <li>Help center access</li>
+                    <li>15 GB de almacenamiento</li>
+                    <li>Soporte por correo y teléfono</li>
+                    <li>Acceso a plantillas premium</li>
                   </ul>
-                  <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+                  <button type="button" class="w-100 btn btn-lg btn-dark">Elegir</button>
                 </div>
               </div>
             </div>
             <div class="col-lg-4">
-              <div class="card mb-4 rounded-3 shadow-sm border-primary">
-                <div class="card-header py-3 text-bg-primary border-primary">
-                  <h4 class="my-0 fw-normal">Enterprise</h4>
+              <div class="card mb-4 rounded-3 shadow-sm border-dark">
+                <div class="card-header py-3 text-bg-dark border-dark">
+                  <h4 class="my-0 fw-normal">Plan Premium</h4>
                 </div>
                 <div class="card-body">
-                  <h1 class="card-title pricing-card-title">$29<small class="text-body-secondary fw-light">/mo</small>
+                  <h1 class="card-title pricing-card-title">COP 120.000<small class="text-body-secondary fw-light">/mes</small>
                   </h1>
                   <ul class="list-unstyled mt-3 mb-4">
-                    <li>30 users included</li>
-                    <li>15 GB of storage</li>
-                    <li>Phone and email support</li>
-                    <li>Help center access</li>
+                    <li>50 GB de almacenamiento</li>
+                    <li>Soporte prioritario 24/7</li>
+                    <li>Acceso a plantillas premium</li>
                   </ul>
-                  <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+                  <button type="button" class="Color w-100 btn btn-lg btn-dark">Contactenos</button>
                 </div>
               </div>
             </div>
@@ -175,7 +169,7 @@
 
     <div class="row">
       <div class="col-lg">
-        <h1 class="display-4 fw-normal text-body-emphasis" id="Titulos">Clientes</h1>
+        <h1 id="ClientesId" class="display-4 fw-normal text-body-emphasis text-center" >Clientes</h1>
       </div>
     </div>
 
